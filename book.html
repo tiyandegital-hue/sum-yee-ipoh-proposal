@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book — Your Chair at Sum Yee | Sum Yee Hair & Beauty — Ipoh</title>
+<meta name="description" content="Interactive demo booking flow: pick a branch, ritual, day and time, and your message draft builds live. Call the salon to book.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231E3A2F'/><text x='16' y='22' font-size='18' text-anchor='middle' fill='%23F7F2E9' font-family='Georgia' font-style='italic'>S</text></svg>">
+</head>
+<body class="has-dock">
+<a class="skip" href="#main">Skip to content</a>
+<div class="marquee" aria-hidden="true"><span>Top 10 Best Hair Salons in Ipoh 2026 &nbsp;•&nbsp; Muslim-Friendly Private Salon &nbsp;•&nbsp; Canning Garden: 05-547 1716 &nbsp;•&nbsp; Pasir Puteh: 05-241 1335 &nbsp;•&nbsp; Top 10 Best Hair Salons in Ipoh 2026 &nbsp;•&nbsp; Muslim-Friendly Private Salon &nbsp;•&nbsp; Canning Garden: 05-547 1716 &nbsp;•&nbsp; Pasir Puteh: 05-241 1335 &nbsp;•&nbsp; </span></div>
+<header class="site">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="wordmark" href="index.html">Sum Yee<small>HAIR &amp; BEAUTY — IPOH</small></a>
+    <ul class="navlinks"><li><a href="index.html" class="">Home</a></li><li><a href="services.html" class="">Services</a></li><li><a href="lookbook.html" class="">Lookbook</a></li><li><a href="academy.html" class="">Academy</a></li><li><a href="locations.html" class="">Locations</a></li></ul>
+    <div class="nav-right">
+      <a class="phone-ic" href="tel:+6055471716" aria-label="Call Canning Garden 05-547 1716">&#9742;</a>
+      <a class="btn small" href="book.html">Book Now</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+<div class="mmenu" id="mmenu" role="dialog" aria-label="Menu">
+  <div class="top"><a class="wordmark" style="color:var(--cream)" href="index.html">Sum Yee</a><button class="close" aria-label="Close menu">&times;</button></div>
+  <nav style="margin-top:28px" aria-label="Mobile navigation">
+    <a class="mlink" href="index.html">Home</a>
+    <a class="mlink" href="services.html">Services</a>
+    <a class="mlink" href="lookbook.html">Lookbook</a>
+    <a class="mlink" href="academy.html">Academy</a>
+    <a class="mlink" href="locations.html">Locations</a>
+    <a class="mlink" href="book.html">Book &#8594;</a>
+  </nav>
+  <div class="mfoot">
+    <p><strong>Canning Garden</strong><br>57, Jln Canning Estate, Taman Canning, 31400 Ipoh, Perak<br><a href="tel:+6055471716">05-547 1716</a></p>
+    <p style="margin-top:12px"><strong>Pasir Puteh</strong><br>Pasir Puteh Central, Ipoh, Perak<br><a href="tel:+6052411335">05-241 1335</a></p>
+    <p style="margin-top:12px">Thu &ndash; Tue, 10:30 am &ndash; 7:00 pm &middot; Closed Wednesday</p>
+  </div>
+</div>
+<main id="main">
+
+<section><div class="wrap">
+  <p class="label">Verified &middot; Top 10 Best Hair Salons in Ipoh 2026 &middot; Direct Concierge Access</p>
+  <h1 style="margin:14px 0">Your chair at Sum Yee begins with a conversation.</h1>
+  <p style="font-size:19px;max-width:56ch">Because strand craft, scalp wellness and tailored morphology cannot be reduced to a rigid booking form &mdash; build your message draft here, then call to confirm.</p>
+  <div class="demo-note"><b>Demo booking flow</b>Sum Yee currently takes live bookings by phone call &amp; front-desk visits. This planner simulates the proposed message-booking flow: it composes your message live &mdash; nothing is sent from this site, and no WhatsApp number is listed because none was verified. Call the salon to book.</div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap book-grid">
+  <form id="book-form" onsubmit="return false">
+    <div class="step">
+      <p class="label green">01 &middot; Enclave Sanctuary</p><h3>Select your salon atelier</h3>
+      <div class="radio-cards">
+        <label class="radio-card"><input type="radio" name="branch" value="Canning Garden — 57, Jln Canning Estate, Taman Canning, 31400 Ipoh"><span class="box"><b>Canning Garden &mdash; Flagship</b><span>57, Jln Canning Estate, Taman Canning, 31400 Ipoh &middot; Private Muslimah Suite &middot; Botanical Patio &middot; Academy Hub &middot; 10:30 am &ndash; 7:00 pm (Thu&ndash;Tue)</span></span></label>
+        <label class="radio-card"><input type="radio" name="branch" value="Pasir Puteh — Pasir Puteh Central, Ipoh, Perak"><span class="box"><b>Pasir Puteh &mdash; Branch</b><span>Pasir Puteh Central, Ipoh, Perak &middot; Rapid Glaze &amp; Colour &middot; Walk-in Friendly</span></span></label>
+      </div>
+    </div>
+    <div class="step">
+      <p class="label green">02 &middot; Primary Craft</p><h3>Select desired treatment &amp; privacy</h3>
+      <div class="radio-cards">
+        <label class="radio-card"><input type="radio" name="ritual" value="Precision Haircut"><span class="box"><b>Precision Haircut</b><span>Morphology scan &amp; master finish</span></span></label>
+        <label class="radio-card"><input type="radio" name="ritual" value="Bespoke Balayage & Tint"><span class="box"><b>Bespoke Balayage &amp; Tint</b><span>Strand porosity diagnostic</span></span></label>
+        <label class="radio-card"><input type="radio" name="ritual" value="Clinical Scalp Therapy"><span class="box"><b>Clinical Scalp Therapy</b><span>Scalp diagnostic &amp; detox</span></span></label>
+        <label class="radio-card"><input type="radio" name="ritual" value="Botanical Moisture Lock"><span class="box"><b>Botanical Moisture Lock</b><span>Deep repair treatment</span></span></label>
+        <label class="radio-card"><input type="radio" name="ritual" value="Aesthetic Skin Therapy"><span class="box"><b>Aesthetic Skin Therapy</b><span>Lymphatic face contour</span></span></label>
+        <label class="radio-card"><input type="radio" name="ritual" value="Styling Academy Intake"><span class="box"><b>Styling Academy Intake</b><span>Guild apprenticeship consultation</span></span></label>
+      </div>
+      <div style="margin-top:14px"><label class="toggle"><input type="checkbox" name="suite" value="requested"><span><b>Muslimah Private Enclave Suite</b><span>Private partitioned room at Canning Garden, zero exterior sightlines. Request it here and it is added to your message draft.</span></span></label></div>
+    </div>
+    <div class="step">
+      <p class="label green">03 &middot; Timing &amp; Specifics</p><h3>When should we hold your chair?</h3>
+      <div class="field"><label>Preferred day of week</label>
+        <div class="daystrip" role="group" aria-label="day"><button type="button" class="pill-btn" data-pill-group="day" data-value="Thursday" aria-pressed="false">Thursday</button><button type="button" class="pill-btn" data-pill-group="day" data-value="Friday" aria-pressed="false">Friday</button><button type="button" class="pill-btn" data-pill-group="day" data-value="Saturday" aria-pressed="false">Saturday</button><button type="button" class="pill-btn" data-pill-group="day" data-value="Sunday" aria-pressed="false">Sunday</button><button type="button" class="pill-btn" data-pill-group="day" data-value="Monday" aria-pressed="false">Monday</button><button type="button" class="pill-btn" data-pill-group="day" data-value="Tuesday" aria-pressed="false">Tuesday</button><button type="button" class="pill-btn" data-pill-group="day" data-value="Wednesday" aria-pressed="false" disabled>Wednesday</button></div><input type="radio" name="day" value="Thursday" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="day" value="Friday" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="day" value="Saturday" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="day" value="Sunday" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="day" value="Monday" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="day" value="Tuesday" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="day" value="Wednesday" hidden aria-hidden="true" tabindex="-1">
+        <p class="sample-note">Closed Wednesday.</p></div>
+      <div class="field"><label>Time of day</label>
+        <div class="daystrip" role="group" aria-label="time"><button type="button" class="pill-btn" data-pill-group="time" data-value="Morning — 10:30 AM to 1:00 PM" aria-pressed="false">Morning — 10:30 AM to 1:00 PM</button><button type="button" class="pill-btn" data-pill-group="time" data-value="Afternoon — 1:00 PM to 4:00 PM" aria-pressed="false">Afternoon — 1:00 PM to 4:00 PM</button><button type="button" class="pill-btn" data-pill-group="time" data-value="Late Afternoon — 4:00 PM to 7:00 PM" aria-pressed="false">Late Afternoon — 4:00 PM to 7:00 PM</button></div><input type="radio" name="time" value="Morning — 10:30 AM to 1:00 PM" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="time" value="Afternoon — 1:00 PM to 4:00 PM" hidden aria-hidden="true" tabindex="-1"><input type="radio" name="time" value="Late Afternoon — 4:00 PM to 7:00 PM" hidden aria-hidden="true" tabindex="-1">
+      </div>
+      <div class="field"><label for="bk-name">Guest full name</label><input id="bk-name" name="name" type="text" autocomplete="name" placeholder="Your full name"></div>
+      <div class="field"><label for="bk-phone">Mobile contact</label><input id="bk-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+60 12-345 6789"></div>
+      <div class="field"><label for="bk-notes">Hair history &amp; scalp considerations</label><textarea id="bk-notes" name="notes" placeholder="e.g. bleached in the last 6 months, sensitive scalp, box-dye history, or hijab styling needs&hellip;"></textarea></div>
+    </div>
+    <div class="step">
+      <button type="button" class="btn" id="open-drawer">View Live Message Draft &#8595;</button>
+    </div>
+  </form>
+
+  <aside class="draft" aria-label="Live message draft">
+    <p class="meta">Step 04 &middot; Live Message Draft</p>
+    <h3 style="margin-top:8px">Your booking message, as you build it.</h3>
+    <div class="bubble" id="book-draft" tabindex="0"></div>
+    <p style="font-size:14px;color:#C9D6CC">Demo booking flow &mdash; this message is composed on your device only. To book, copy it and call the salon, or read it out on the phone.</p>
+    <p style="margin-top:14px"><button type="button" class="btn" data-copy="#book-draft">Copy Message Draft</button></p>
+    <p style="margin-top:14px"><a class="btn cream" href="tel:+6055471716">Call Canning Garden &middot; 05-547 1716</a></p>
+    <p style="margin-top:10px"><a class="btn cream" href="tel:+6052411335">Call Pasir Puteh &middot; 05-241 1335</a></p>
+  </aside>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2 style="margin-bottom:8px">Prefer voice over text? Call our enclaves directly.</h2>
+  <p>For same-day enquiries or academy consultation visits, dial reception.</p>
+  <div class="quickdial mt" role="group" aria-label="One-tap quick dial">
+    <a href="tel:+6055471716">Call Canning Garden<small>05-547 1716 &middot; 57, Jln Canning Estate</small></a>
+    <a href="tel:+6052411335">Call Pasir Puteh<small>05-241 1335 &middot; Pasir Puteh Central</small></a>
+  </div>
+  <div class="card mt"><h3>Social channels</h3><p>Inspect recent balayage cases, texture reconstructions and behind-the-scenes masterclasses on Instagram <a href="https://instagram.com/sumyeehair" rel="noopener">@sumyeehair</a>, Facebook <a href="https://facebook.com/sumyeehair" rel="noopener">/sumyeehair</a> and TikTok <a href="https://tiktok.com/@sumyeehair_" rel="noopener">@sumyeehair_</a>.</p></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <p class="label">Frequently Addressed Booking Protocols</p><h2 style="margin:10px 0">Booking, answered.</h2>
+  <div class="faq">
+    <details><summary>Why is booking handled via message &amp; consultation rather than rigid bots?</summary><p>Hair texture, chemical density and scalp condition are unique to every individual. A short conversation with a senior stylist beats a rigid form &mdash; the consultation is where your price and plan are agreed.</p></details>
+    <details><summary>How do I ensure the Muslimah Private Suite is reserved for my appointment?</summary><p>Keep the &ldquo;Muslimah Private Enclave Suite&rdquo; toggle active in Step 2 above. It is added to your message draft, and the front desk will reserve the partitioned room for your visit.</p></details>
+    <details><summary>What is your arrival protocol?</summary><p>Please arrive a few minutes before your time slot so your consultation can start on time. If you are running late, call the salon &mdash; the desk will advise on the next available slot.</p></details>
+    <details><summary>Why is there no price list on the site?</summary><p>Every price is agreed on consultation, because hair density, length and past colour history change the work involved. No flat rates, no hidden upcharges &mdash; the consultation is free of obligation.</p></details>
+    <details><summary>Which branch should I choose?</summary><p>Canning Garden is the flagship and academy atelier, with the private Muslimah suite and garden setting. Pasir Puteh is the neighbourhood branch for precision cuts and express care. Both share one standard of craft.</p></details>
+  </div>
+  <p class="mt"><span class="badge">Cloistered Ladies Suite</span> <span class="badge" style="margin-left:8px">Ipoh Top 10 Salon 2026</span></p>
+</div></section>
+
+<div class="dock" id="dock">
+  <div class="sum" id="dock-summary"><b>Demo booking</b>Choose branch &bull; Choose ritual</div>
+  <button type="button" class="btn" id="dock-copy" data-copy="#book-draft">Copy Draft</button>
+</div>
+<div class="drawer" id="drawer" role="dialog" aria-label="Live message draft">
+  <div class="grab"></div>
+  <button class="close-x" id="close-drawer" aria-label="Close draft">&times;</button>
+  <p class="label green">Step 04 &middot; Live Message Draft</p>
+  <h3 style="margin:8px 0">Your booking message</h3>
+  <div class="draft" style="position:static"><div class="bubble" id="drawer-draft" tabindex="0" style="background:#1B3329"></div>
+  <button type="button" class="btn" data-copy="#drawer-draft">Copy Message Draft</button></div>
+  <p class="sample-note">Demo booking flow &mdash; call the salon to book: <a href="tel:+6055471716">05-547 1716</a> or <a href="tel:+6052411335">05-241 1335</a>.</p>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <p style="font-family:var(--serif);font-style:italic;font-size:30px;color:var(--cream)">Sum Yee</p>
+        <p>Canning Garden Minimal, but loud. Ipoh&rsquo;s sanctuary for bespoke hair transformation and scalp wellness.</p>
+        <p style="margin-top:12px"><span class="badge coral">Top 10 Salon &middot; Ipoh 2026</span></p>
+        <p style="margin-top:12px">Muslim-friendly enclave &amp; private rooms available.</p>
+      </div>
+      <div>
+        <h4>Flagship Enclaves</h4>
+        <p><strong style="color:var(--cream)">Canning Garden Enclave</strong><br>57, Jln Canning Estate, Taman Canning, 31400 Ipoh, Perak<br>Tel: <a href="tel:+6055471716">05-547 1716</a></p>
+        <p style="margin-top:12px"><strong style="color:var(--cream)">Pasir Puteh Salon</strong><br>Pasir Puteh Central, Ipoh, Perak<br>Tel: <a href="tel:+6052411335">05-241 1335</a></p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Thursday &ndash; Tuesday<br>10:30 am &ndash; 7:00 pm<br>Wednesday: Closed</p>
+        <h4 style="margin-top:20px">Explore</h4>
+        <ul><li><a href="services.html">Service Atelier</a></li><li><a href="lookbook.html">Editorial Lookbook</a></li><li><a href="academy.html">Styling Academy</a></li><li><a href="locations.html">Salon Locations</a></li></ul>
+      </div>
+      <div>
+        <h4>Direct Connect</h4>
+        <p>Instagram: <a href="https://instagram.com/sumyeehair" rel="noopener">@sumyeehair</a><br>Facebook: <a href="https://facebook.com/sumyeehair" rel="noopener">/sumyeehair</a><br>TikTok: <a href="https://tiktok.com/@sumyeehair_" rel="noopener">@sumyeehair_</a></p>
+        <p style="margin-top:12px"><a href="tel:+6055471716">Dial Canning Garden</a><br><a href="tel:+6052411335">Dial Pasir Puteh</a></p>
+      </div>
+    </div>
+    <div class="base"><span>&copy; <span id="yr">2026</span> Sum Yee Hair & Beauty. Prices on consultation. Demo booking flow.</span><span>Top 10 Best Hair Salons in Ipoh 2026 &mdash; myweekendplan.asia</span></div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
